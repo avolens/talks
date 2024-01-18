@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-9"
+  namespace: "tr23"
+spec:
+  title: "Real world detection engineering in a multi-cloud environment"
+  speaker:
+  - name: "Aaron Jewitt"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1687952700.0

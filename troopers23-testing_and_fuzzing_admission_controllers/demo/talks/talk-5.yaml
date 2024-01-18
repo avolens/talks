@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-5"
+  namespace: "tr23"
+spec:
+  title: "All your parcel are belong to us"
+  speaker:
+  - name: "Dennis Kniel"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1687965300.0

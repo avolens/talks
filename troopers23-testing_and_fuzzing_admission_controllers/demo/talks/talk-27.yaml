@@ -1,0 +1,16 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-27"
+  namespace: "tr23"
+spec:
+  title: "GPT-like Pre-Training on Unlabeled System Logs for Malware Detection"
+  speaker:
+  - name: "Dmitrijs Trizna"
+    canTalk: true
+  - name: "Luca Demetrio"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1688038200.0

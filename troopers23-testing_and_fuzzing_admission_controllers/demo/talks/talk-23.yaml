@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-23"
+  namespace: "tr23"
+spec:
+  title: "Everyone knows SAP, everyone uses SAP, everyone uses RFC, no one knows RFC: From RFC to RCE 16 years later"
+  speaker:
+  - name: "Fabian Hagg"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1688047200.0

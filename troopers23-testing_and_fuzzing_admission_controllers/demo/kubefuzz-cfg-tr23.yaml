@@ -1,0 +1,7 @@
+group: "talks.avolens.com"
+kind: "Troopers2023Talk"
+version: "v1beta1"
+
+fields:
+- path: "$.spec"
+  required: true

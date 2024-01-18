@@ -1,0 +1,16 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-19"
+  namespace: "tr23"
+spec:
+  title: "Testing and Fuzzing the Kubernetes Admission Configuration"
+  speaker:
+  - name: "Benjamin Koltermann"
+    canTalk: true
+  - name: "Maximilian Rademacher"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1688027400.0

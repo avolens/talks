@@ -1,0 +1,65 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: troopers2023talks.talks.avolens.com
+spec:
+  group: talks.avolens.com
+  scope: Namespaced
+  names:
+    kind: Troopers2023Talk
+    listKind: Troopers2023TalkList
+    plural: troopers2023talks
+    shortNames:
+    - tr23
+    singular: troopers2023talk
+  versions:
+    - name: v1beta1
+      served: true
+      storage: true
+      schema:
+        openAPIV3Schema:
+          type: object
+          properties:
+            spec:
+              type: object
+              properties:
+                title:
+                  type: string
+                speaker:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      canTalk:
+                        type: boolean
+                status:
+                  type: object
+                  properties:
+                    accepted: 
+                      type: boolean
+                    track:
+                      type: string
+                      enum: ["Attack & Research", "Defense & Management", "Active Directory & Azure Security", "Track 3"]
+                    timestamp:
+                      type: integer
+      additionalPrinterColumns:
+      - name: Accepted
+        type: string
+        jsonPath: .spec.status.accepted
+      - name: Track
+        type: string
+        jsonPath: .spec.status.track
+      - name: Title
+        type: string
+        jsonPath: .spec.title
+      - name: First Speaker
+        type: string
+        jsonPath: .spec.speaker[0].name
+      - name: Second Speaker
+        type: string
+        jsonPath: .spec.speaker[1].name
+      - name: When
+        type: string
+        jsonPath: .spec.status.timestamp

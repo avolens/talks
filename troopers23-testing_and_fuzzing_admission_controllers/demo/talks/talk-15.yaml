@@ -1,0 +1,16 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-15"
+  namespace: "tr23"
+spec:
+  title: "Priority for Effective Action - A Practical Model for quantifying the Risk of Active Directory Attacks"
+  speaker:
+  - name: "Mars Cheng"
+    canTalk: true
+  - name: "Dexter Chen"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Active Directory & Azure Security"
+    timestamp: 1687952700.0

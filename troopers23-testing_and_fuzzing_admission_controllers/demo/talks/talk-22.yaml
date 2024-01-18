@@ -1,0 +1,16 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-22"
+  namespace: "tr23"
+spec:
+  title: "The Anatomy of Windows Telemetry Part 2"
+  speaker:
+  - name: "Tillmann Oßwald"
+    canTalk: true
+  - name: "Dominik Phillips"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1688041800.0

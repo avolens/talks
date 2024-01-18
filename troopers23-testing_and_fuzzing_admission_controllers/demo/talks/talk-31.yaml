@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-31"
+  namespace: "tr23"
+spec:
+  title: "Horror Stories from the Automotive Industry"
+  speaker:
+  - name: "Thomas Sermpinis"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Track 3"
+    timestamp: 1688027400.0

@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-16"
+  namespace: "tr23"
+spec:
+  title: "(Windows) Hello from the other side"
+  speaker:
+  - name: "Dirk-jan Mollema"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Active Directory & Azure Security"
+    timestamp: 1687956300.0

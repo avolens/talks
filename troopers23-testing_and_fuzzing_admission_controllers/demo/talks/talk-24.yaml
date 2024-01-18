@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-24"
+  namespace: "tr23"
+spec:
+  title: "Closing"
+  speaker:
+  - name: "???"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1688050800.0

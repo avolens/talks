@@ -1,0 +1,16 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-2"
+  namespace: "tr23"
+spec:
+  title: "Attacking Ultra-Wideband: Security Analysis of UWB Applications in Smartphones"
+  speaker:
+  - name: "Alexander Heinrich"
+    canTalk: true
+  - name: "Jiska Classen"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1687952700.0

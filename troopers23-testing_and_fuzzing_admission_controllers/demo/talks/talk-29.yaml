@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-29"
+  namespace: "tr23"
+spec:
+  title: "Reportly - keep your head in the clouds. A new Azure visualization tool for analyzing user activities."
+  speaker:
+  - name: "Sapir Federovsky"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1688047200.0

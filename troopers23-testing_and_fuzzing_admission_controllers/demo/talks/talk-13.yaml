@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-13"
+  namespace: "tr23"
+spec:
+  title: "Dumping NTHashes from Azure AD"
+  speaker:
+  - name: "Nestori Syynimaa"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Active Directory & Azure Security"
+    timestamp: 1687941000.0

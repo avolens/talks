@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-12"
+  namespace: "tr23"
+spec:
+  title: "Jupysec: Auditing Jupyter to Improve AI Security"
+  speaker:
+  - name: "Joe Lucas"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1687965300.0

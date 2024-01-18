@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-11"
+  namespace: "tr23"
+spec:
+  title: "SAP (Anti-)Forensics: Detecting White-Collar Cyber-Crime"
+  speaker:
+  - name: "Yvan Genuer"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1687961700.0

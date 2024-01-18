@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-17"
+  namespace: "tr23"
+spec:
+  title: "The Power of Coercion Techniques in Windows Environments"
+  speaker:
+  - name: "Martin Grottenthaler"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Active Directory & Azure Security"
+    timestamp: 1687961700.0

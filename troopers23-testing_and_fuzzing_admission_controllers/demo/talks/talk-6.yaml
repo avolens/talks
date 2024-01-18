@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-6"
+  namespace: "tr23"
+spec:
+  title: "Stay fit: Hack a Jump Rope"
+  speaker:
+  - name: "Axelle Apvrille"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1687967100.0

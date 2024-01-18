@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-34"
+  namespace: "tr23"
+spec:
+  title: "Vulnerabilities in the TPM 2.0 reference implementation code"
+  speaker:
+  - name: "Francisco Falcon"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Track 3"
+    timestamp: 1688041800.0

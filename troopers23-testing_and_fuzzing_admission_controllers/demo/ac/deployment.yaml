@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: troopers2023talks-vac
+  namespace: tr23
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: troopers2023talks-vac
+  template:
+    metadata:
+      labels:
+        app: troopers2023talks-vac
+    spec:
+      containers:
+      - name: tr23-vac
+        image: p4ck3t0/trooper2023:vac
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 443
+        env:
+        - name: RUST_LOG
+          value: debug
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: validating-ac-service
+  namespace: tr23
+spec:
+  selector:
+    app: troopers2023talks-vac
+  ports:
+    - protocol: TCP
+      port: 443
+      targetPort: 443

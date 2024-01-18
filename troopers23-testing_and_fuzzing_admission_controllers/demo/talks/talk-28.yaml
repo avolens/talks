@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-28"
+  namespace: "tr23"
+spec:
+  title: "Forensic analysis on real incidents inside Microsoft Remote Desktop Services"
+  speaker:
+  - name: "Catarina de Faria Cristas"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1688041800.0

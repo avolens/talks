@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-4"
+  namespace: "tr23"
+spec:
+  title: "Forensic Examination of Ceph"
+  speaker:
+  - name: "Florian Bausch"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1687961700.0

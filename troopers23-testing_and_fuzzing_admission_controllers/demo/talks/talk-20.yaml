@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-20"
+  namespace: "tr23"
+spec:
+  title: "Surprise Talk"
+  speaker:
+  - name: "???"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1688031000.0

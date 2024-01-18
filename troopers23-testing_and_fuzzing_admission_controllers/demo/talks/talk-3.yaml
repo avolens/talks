@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-3"
+  namespace: "tr23"
+spec:
+  title: "Fact Based Post Exploitation - Office365 Edition"
+  speaker:
+  - name: "Melvin Langvik"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1687956300.0

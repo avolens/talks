@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-7"
+  namespace: "tr23"
+spec:
+  title: "Das IT-Security-Lagebild aus Heise-Sicht"
+  speaker:
+  - name: "Jürgen Schmidt aka ju"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1687941000.0

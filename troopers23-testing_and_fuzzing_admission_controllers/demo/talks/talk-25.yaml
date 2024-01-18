@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-25"
+  namespace: "tr23"
+spec:
+  title: "OAuth and Proof of Possession - The long way round"
+  speaker:
+  - name: "Dominick Baier"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1688027400.0

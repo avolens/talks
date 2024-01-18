@@ -1,0 +1,3 @@
+# fuzz
+
+kubefuzz fuzz --max-error 10000 --max-accepted 10000 -c kubefuzz-cfg-tr23.yaml -s schemas -f tr23-fuzz

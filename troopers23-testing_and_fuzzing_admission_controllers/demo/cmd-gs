@@ -1,0 +1,5 @@
+# get schemas
+k proxy &
+
+kubefuzz get-schemas --endpoint http://127.0.0.1/openapi/v2
+

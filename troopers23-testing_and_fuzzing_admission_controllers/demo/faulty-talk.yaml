@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "faulty-talk"
+  namespace: "tr23"
+spec:
+  title: "Not a Real Talk"
+  speaker:
+  - name: "HACKER MAN"
+    canTalk: false
+  status:
+    accepted: false
+    track: "Attack & Research"
+    timestamp: 1234

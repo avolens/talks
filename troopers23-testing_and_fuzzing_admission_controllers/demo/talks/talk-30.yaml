@@ -1,0 +1,16 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-30"
+  namespace: "tr23"
+spec:
+  title: "Homophonic Collisions: Hold me closer Tony Danza"
+  speaker:
+  - name: "Justin Ibarra"
+    canTalk: true
+  - name: "Reagan Short"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1688049000.0

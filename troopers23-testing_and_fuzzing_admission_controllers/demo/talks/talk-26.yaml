@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-26"
+  namespace: "tr23"
+spec:
+  title: "Detection And Blocking With BPF Via YAML"
+  speaker:
+  - name: "Kev Sheldrake"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1688031000.0

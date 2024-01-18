@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-21"
+  namespace: "tr23"
+spec:
+  title: "Monitoring Solutions: Attacking IT Infrastructure at its Core"
+  speaker:
+  - name: "Stefan Schiller"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1688038200.0

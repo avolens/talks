@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-8"
+  namespace: "tr23"
+spec:
+  title: "Cat & Mouse - or chess?"
+  speaker:
+  - name: "Fabian Mosch"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1687944600.0

@@ -1,0 +1,16 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-10"
+  namespace: "tr23"
+spec:
+  title: "Security Heroes versus the Power of Privacy"
+  speaker:
+  - name: "Avi D"
+    canTalk: true
+  - name: "Kim Wuyts"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Defense & Management"
+    timestamp: 1687956300.0

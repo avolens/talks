@@ -1,0 +1,14 @@
+apiVersion: "talks.avolens.com/v1beta1"
+kind: "Troopers2023Talk"
+metadata:
+  name: "talk-0"
+  namespace: "tr23"
+spec:
+  title: "OopsSec - The bad, the worst and the ugly  of APT’s operations security"
+  speaker:
+  - name: "Tomer Bar"
+    canTalk: true
+  status:
+    accepted: true
+    track: "Attack & Research"
+    timestamp: 1687941000.0
